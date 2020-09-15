@@ -1,7 +1,7 @@
 ## To do list
 
 
-### [] make .bat file for use R in window
+### [v] make .bat file for use R in window
 
 ### [] make .bat file tracking R install folder
 
