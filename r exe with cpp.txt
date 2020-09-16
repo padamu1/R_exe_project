@@ -1,0 +1,9 @@
+< in  cpp > - make bat and ruuning in cpp
+ofstream batch;
+batch.open("terbuchur.bat", ios::out);
+batch << "@echo ON\n";
+batch << "for /f \"tokens=* usebackq\" %%a in (`^WHERE /R C:\\\\" << "\"Program Files\" R.exe`) do set b=%%a\n";
+batch << "\"%b%\" --slave --vanilla --file=data_terbuchur.R --args " << FILENAME << "\n";
+batch << "pause\n";
+batch.close();
+system("terbuchur.bat");
