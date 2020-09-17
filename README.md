@@ -1,8 +1,11 @@
-## To do list
+## c++ exe with R program
 
+### this project will c++ can connected with R by using cmd
 
-### [v] make .bat file for use R in window
+### 1. exe(made by c++) make .bat file
 
-### [] make .bat file tracking R install folder
+### 2. .bat file find R.exe in your hdd
 
-### [] make .exe file use c# code
+### 3. .bat file exec your .R file using R.exe (you can add parameter)
+
+### 4. when end R program cmd pause
